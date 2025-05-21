@@ -1,0 +1,58 @@
+aiohappyeyeballs==2.6.1
+aiohttp==3.11.14
+aiosignal==1.3.2
+attrs==25.3.0
+blessed==1.20.0
+Brotli @ file:///croot/brotli-split_1736182456865/work
+certifi @ file:///croot/certifi_1738623731865/work/certifi
+charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+colorama==0.4.6
+Cython==3.0.12
+dill==0.4.0
+filelock @ file:///croot/filelock_1700591183607/work
+frozenlist==1.5.0
+fsspec==2025.3.0
+future==1.0.0
+gmpy2 @ file:///croot/gmpy2_1738085463648/work
+gpustat==1.1.1
+grakel==0.1.8
+idna @ file:///croot/idna_1714398848350/work
+Jinja2 @ file:///croot/jinja2_1741710844255/work
+joblib==1.4.2
+MarkupSafe @ file:///croot/markupsafe_1738584038848/work
+mkl-service==2.4.0
+mkl_fft @ file:///io/mkl313/mkl_fft_1730824109137/work
+mkl_random @ file:///io/mkl313/mkl_random_1730823916628/work
+mpmath @ file:///croot/mpmath_1690848262763/work
+multidict==6.2.0
+networkx @ file:///croot/networkx_1737039604450/work
+nose==1.3.7
+numpy==1.24.2
+nvidia-ml-py==12.570.86
+pillow @ file:///croot/pillow_1738010226202/work
+propcache==0.3.1
+psutil==7.0.0
+pyg-lib==0.4.0+pt23cu121
+pyparsing==3.2.3
+PySocks @ file:///work/ci_py311/pysocks_1676822712504/work
+PyYAML @ file:///croot/pyyaml_1728657952215/work
+requests @ file:///croot/requests_1730999120400/work
+scikit-learn==1.6.1
+scipy==1.15.2
+six==1.17.0
+sympy @ file:///croot/sympy_1738108488918/work
+threadpoolctl==3.6.0
+torch==2.3.0
+torch-geometric==2.6.1
+torch_cluster==1.6.3+pt23cu121
+torch_scatter==2.1.2+pt23cu121
+torch_sparse==0.6.18+pt23cu121
+torch_spline_conv==1.2.2+pt23cu121
+torchaudio==2.3.0
+torchvision==0.18.0
+tqdm==4.67.1
+triton==2.3.0
+typing_extensions @ file:///croot/typing_extensions_1734714854207/work
+urllib3 @ file:///croot/urllib3_1737133630106/work
+wcwidth==0.2.13
+yarl==1.18.3
