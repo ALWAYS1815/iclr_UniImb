@@ -39,7 +39,7 @@ def runnerr(args, device):
         torch.backends.cudnn.deterministic = True
         torch.backends.cudnn.benchmark = False
         
-        train_dataset, val_dataset, test_dataset = shuffle(dataset, args.c_train_num, args.c_val_num, args.y)  # 打乱获得训练集，验证集和测试集
+        train_dataset, val_dataset, test_dataset = shuffle(dataset, args.c_train_num, args.c_val_num, args.y)  
         print(len(train_dataset))
         print(len(val_dataset))
         train_dataset = upsample(train_dataset)
