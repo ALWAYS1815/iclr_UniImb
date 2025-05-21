@@ -75,7 +75,7 @@ Zipf, Poisson, Exponential, Uniform
 ```
 Through experiments, we have validated that when the prototype activation distribution is Uniform, it performs the best in handling imbalanced graph classification.
 
-### `backbbone`
+### `backbone`
 UniImb performs well across all backbones. We provide three GNNs to choose from, with the best performance observed when using GIN as the backbone.
 
 ```
