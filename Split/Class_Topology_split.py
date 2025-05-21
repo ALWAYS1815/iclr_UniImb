@@ -52,7 +52,7 @@ def get_head_and_tail_graph(dataset, head_ratio=0.2, from_head=False, device=Non
             tail_graph[graph.y.item()].append(sorted_indices[index].item())
         else:
             head_graph[graph.y.item()].append(sorted_indices[index].item())
-    K = sum(len(graphs) for graphs in head_graph.values())  # 实际头图数量
+    K = sum(len(graphs) for graphs in head_graph.values())  
     return head_graph, tail_graph, boundary_size, K
 
 def get_split_index(
