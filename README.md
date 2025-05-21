@@ -39,7 +39,6 @@ Topology Imbalance: Methods for handling topology imbalance in graph data.
 
 intertwined class and topology imbalance: Methods for addressing intertwined imbalance scenarios.
 
-## Run
 To reproduce results in Table 1, please run the following code:
 ```linux
 bash Class.sh
