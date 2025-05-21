@@ -58,7 +58,7 @@ Imbalance type:
 Controls the severity of imbalance:
 
 ```
-'low', 'mid', 'high'
+'low', 'medium', 'high'
 ```
 ### `scripts`
 
