@@ -22,9 +22,6 @@ Please ensure your Python environment meets  following dependencies:
 | scipy             | 1.15.2      |
 
 
-#### [Recommended] Installation Steps
-install required dependencies:
-
 # 💡 Install dependencies
 pip install -r requirements.txt
 ```
@@ -33,11 +30,7 @@ pip install -r requirements.txt
 
 main/: Contains the scripts for running the experiments on class-imbalance, topology-imbalance and intertwined class and topology imbalance.
 
-Split/: Contains the data preprocessing methods, including:
-
-Topology Imbalance: Methods for handling topology imbalance in graph data.
-
-intertwined class and topology imbalance: Methods for addressing intertwined imbalance scenarios.
+Split/: Contains the data preprocessing methods, including: (1) Topology Imbalance: Methods for handling topology imbalance in graph data. (2) intertwined class and topology imbalance: Methods for addressing intertwined imbalance scenarios.
 ```
 To reproduce results in Table 1, please run the following code:
 ```linux
