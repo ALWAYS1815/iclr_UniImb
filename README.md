@@ -58,7 +58,7 @@ Imbalance type:
 Controls the severity of imbalance:
 
 ```
-'low', 'medium', 'high'
+'low', 'medium', 'extreme'
 ```
 ### `scripts`
 
@@ -76,10 +76,10 @@ Zipf, Poisson, Exponential, Uniform
 Through experiments, we have validated that when the prototype activation distribution is Uniform, it performs the best in handling imbalanced graph classification.
 
 ### `backbone`
-UniImb performs well across all backbones. We provide three GNNs to choose from, with the best performance observed when using GIN as the backbone.
+UniImb performs well across all backbones. We provide various backbones to choose from, with UniImb can significantly improve the performance of these backbones in imbalanced scenarios, demonstrating its scalability and practicability.
 
 ```
-GIN, GCN, GraphSAGE
+GIN, GCN, GraphSAGE, GraphGPS, Exphormer, Graph-Mamba
 ```
 
 ### Run
