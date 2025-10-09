@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 binary classification graph dataset: 
 ```
-MUTAG, PTC-MR, DHFR, PROTEINS, D&D, REDDIT-B, AIDS, NCI1, FRANKENSTEIN
+MUTAG, PTC-MR, DHFR, PROTEINS, D&D, REDDIT-B, AIDS, NCI1, FRANKENSTEIN, AirGraph
 ```
 
 multi-class graph dataset: 
