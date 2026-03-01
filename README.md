@@ -41,7 +41,13 @@ binary classification graph dataset:
 ```
 MUTAG, PTC-MR, DHFR, PROTEINS, D&D, REDDIT-B, AIDS, NCI1, FRANKENSTEIN, AirGraph
 ```
+🔥 **AirGraph**: A Large-Scale Imbalanced Air Pollution Graph Dataset
 
+<div align="center">
+<img src="figs/AirGraph.png" width=100% ></img> 
+</div>
+
+---
 multi-class graph dataset: 
 ```
 COLLAB, Synthie, IMDB-MULTI
@@ -85,6 +91,15 @@ UniImb performs well across all backbones. We provide various backbones to choos
 ```
 GIN, GCN, GraphSAGE, GraphGPS, Exphormer, Graph-Mamba
 ```
+## 📊 Evaluation
+
+<div align="center">
+<img src="figs/table1.png" width=100% ></img> 
+<img src="figs/table2.png" width=100% ></img> 
+<img src="figs/intertwined.png" width=100% ></img> 
+</div>
+
+---
 
 ### Run
 
