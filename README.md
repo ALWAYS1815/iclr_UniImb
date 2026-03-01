@@ -1,4 +1,14 @@
-# One for Two: A Unified Framework for Imbalanced Graph Classification via Dynamic Balanced Prototype
+<div align="center">
+
+# One for Two  
+# A Unified Framework for Imbalanced Graph Classification via Dynamic Balanced Prototype
+
+</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/ICLR-2026%20Oral-red" />
+  <img src="https://img.shields.io/badge/Affiliation-USTC-blue" />
+</p>
+
 We propose UniImb, a novel framework for imbalanced graph classification based on [PyTorch](https://pytorch.org/) and [PyTorch Geometric](https://www.pyg.org/), to address both types of imbalance in a uniform manner. UniImb first captures multi-scale topological features and enhances data diversity via learnable personalized graph perturbations. It then employs a dynamic balanced prototype module to learn representative prototypes from graph instances, improving the quality of graph representations. Concurrently, a prototype load-balancing optimization term mitigates dominance by majority samples to equalize sample influence during training. Extensive experiments across 13 datasets and 20 benchmarks demonstrate that UniImb significantly improves graph classification performance under various imbalance settings.
 
 
