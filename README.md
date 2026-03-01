@@ -1,9 +1,7 @@
 <div align="center">
 
 # One for Two  
-# A Unified Framework for Imbalanced Graph Classification via Dynamic Balanced Prototype
-
-</div>
+# A Unified Framework for Imbalanced Graph Classification via Dynamic Balanced Prototype [[PDF](https://openreview.net/forum?id=MraQM41SNS)]
 <p align="center">
   <img src="https://img.shields.io/badge/ICLR-2026%20Oral-red" />
   <img src="https://img.shields.io/badge/Affiliation-USTC-blue" />
