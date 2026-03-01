@@ -9,8 +9,7 @@
   <img src="https://img.shields.io/badge/Affiliation-USTC-blue" />
 </p>
 
-We propose UniImb, a novel framework for imbalanced graph classification based on [PyTorch](https://pytorch.org/) and [PyTorch Geometric](https://www.pyg.org/), to address both types of imbalance in a uniform manner. UniImb first captures multi-scale topological features and enhances data diversity via learnable personalized graph perturbations. It then employs a dynamic balanced prototype module to learn representative prototypes from graph instances, improving the quality of graph representations. Concurrently, a prototype load-balancing optimization term mitigates dominance by majority samples to equalize sample influence during training. Extensive experiments across 13 datasets and 20 benchmarks demonstrate that UniImb significantly improves graph classification performance under various imbalance settings.
-
+We propose UniImb, a novel framework for imbalanced graph classification based on [PyTorch](https://pytorch.org/) and [PyTorch Geometric](https://www.pyg.org/), to address both types of imbalance in a uniform manner. UniImb first captures multi-scale topological features and enhances data diversity via learnable personalized graph perturbations. It then employs a dynamic balanced prototype module to learn representative prototypes from graph instances, improving the quality of graph representations. Concurrently, a prototype load-balancing optimization term mitigates dominance by majority samples to equalize sample influence during training. We justify these design choices theoretically using the Information Bottleneck principle. Extensive experiments on 19 datasets-including a large-scale imbalanced air pollution graph dataset AirGraph released by us and 23 baselines demonstrate that UniImb has achieved dominant performance across various imbalanced scenarios.
 
 ## 📝 Overall architecture of UniImb
 
@@ -103,4 +102,15 @@ bash Class.sh
 To reproduce results in Table 2, please run the following code:
 ```linux
 bash Topology.sh
+```
+## 📄 Citation
+
+If you find this project helpful, please cite us:
+
+```bibtex
+@inproceedings{wangone,
+  title={One for Two: A Unified Framework for Imbalanced Graph Classification via Dynamic Balanced Prototype},
+  author={Wang, Guanjun and Wang, Binwu and Ma, Jiaming and Zhou, Zhengyang and Wang, Pengkun and Wang, Xu and Wang, Yang},
+  booktitle={The Fourteenth International Conference on Learning Representations}
+}
 ```
