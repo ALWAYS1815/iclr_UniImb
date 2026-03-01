@@ -96,10 +96,15 @@ GIN, GCN, GraphSAGE, GraphGPS, Exphormer, Graph-Mamba
 <div align="center">
 <img src="figs/table1.png" width=100% ></img> 
 <img src="figs/table2.png" width=100% ></img> 
-<img src="figs/intertwined.png" width=100% ></img> 
 </div>
 
 ---
+
+## 🔗⚖️ Intertwined class and topology imbalance
+<div align="center">
+<img src="figs/intertwined.png" width=100% ></img> 
+</div>
+
 
 ### Run
 
