@@ -1,13 +1,10 @@
-<div align="center">
-
-# One for Two  
-# A Unified Framework for Imbalanced Graph Classification via Dynamic Balanced Prototype [[PDF](https://openreview.net/forum?id=MraQM41SNS)]
+# One for Two：A Unified Framework for Imbalanced Graph Classification via Dynamic Balanced Prototype [[PDF](https://openreview.net/forum?id=MraQM41SNS)]
 <p align="center">
   <img src="https://img.shields.io/badge/ICLR-2026%20Oral-red" />
   <img src="https://img.shields.io/badge/Affiliation-USTC-blue" />
 </p>
 
-We propose UniImb, a novel framework for imbalanced graph classification based on [PyTorch](https://pytorch.org/) and [PyTorch Geometric](https://www.pyg.org/), to address both types of imbalance in a uniform manner. UniImb first captures multi-scale topological features and enhances data diversity via learnable personalized graph perturbations. It then employs a dynamic balanced prototype module to learn representative prototypes from graph instances, improving the quality of graph representations. Concurrently, a prototype load-balancing optimization term mitigates dominance by majority samples to equalize sample influence during training. We justify these design choices theoretically using the Information Bottleneck principle. Extensive experiments on 19 datasets-including a large-scale imbalanced air pollution graph dataset AirGraph released by us and 23 baselines demonstrate that UniImb has achieved dominant performance across various imbalanced scenarios.
+> We propose UniImb, a novel framework for imbalanced graph classification based on [PyTorch](https://pytorch.org/) and [PyTorch Geometric](https://www.pyg.org/), to address both types of imbalance in a uniform manner. UniImb first captures multi-scale topological features and enhances data diversity via learnable personalized graph perturbations. It then employs a dynamic balanced prototype module to learn representative prototypes from graph instances, improving the quality of graph representations. Concurrently, a prototype load-balancing optimization term mitigates dominance by majority samples to equalize sample influence during training. We justify these design choices theoretically using the Information Bottleneck principle. Extensive experiments on 19 datasets—including a large-scale imbalanced air pollution graph dataset AirGraph released by us—and 23 baselines demonstrate that UniImb has achieved dominant performance across various imbalanced scenarios.
 
 ## 📝 Overall architecture of UniImb
 
